@@ -1,2 +1,3 @@
 # qrystal
-user interaction with their data reimagined in rust based on iced for cosmic desktop.
+
+A negentropic, physics-based file explorer that treats directories as gravitational nodes.
