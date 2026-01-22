@@ -1,0 +1,18 @@
+[package]
+name = "qrystal"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# GUI
+iced = { version = "0.12", features = ["canvas", "tokio", "debug"] }
+cosmic-text = "0.11"
+
+# Physics & Math
+fdg-sim = "0.6"
+glam = "0.24"
+
+# System
+walkdir = "2.4"
+notify = "6.1"
+kamadak-exif = "0.5"
